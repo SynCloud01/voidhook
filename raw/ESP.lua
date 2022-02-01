@@ -1,3 +1,9 @@
+--[[
+	Kiriot's ESP (not mine)
+	
+	for another voidhook project, ok.
+]]
+
 --Settings--
 local ESP = {
     Enabled = false,
