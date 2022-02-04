@@ -12,7 +12,7 @@ if getgenv().library then
 	getgenv().library:Unload()
 end
 
-local data = {name = "voidhook", folder = "test", extension = "config"};
+local data = {name = "voidhook | v0.0.1", folder = "test", extension = "config"};
 -- [UI Library Settings]
 local library = {
 	tabs = {},
