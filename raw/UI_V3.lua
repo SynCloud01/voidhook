@@ -33,7 +33,7 @@ local library = {
 }
 
 function library:CreateWatermark(name, position)
-    local gamename = game:GetService("MarketPlaceService"):GetProductInfo(game.PlaceId).Name
+    local gamename = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     local watermark = { }
     watermark.Visible = true
     watermark.text = " " .. name:gsub("{game}", gamename):gsub("{fps}", "0 FPS") .. " "
