@@ -67,14 +67,14 @@ function library:CreateWatermark(name, position)
     watermark.Outline.ZIndex = 4
     watermark.Outline.BorderSizePixel = 0
     watermark.Outline.Visible = watermark.Visible
-    watermark.Outline.BackgroundColor3 = Color3.fromRGB(60, 60, 60),
+    watermark.Outline.BackgroundColor3 = Color3.new(60, 60, 60),
     watermark.Outline.Position = UDim2.fromOffset(-1, -1)
 
     watermark.BlackOutline = Instance.new("Frame", watermark.mainbar)
     watermark.BlackOutline.Name = "blackline"
     watermark.BlackOutline.ZIndex = 3
     watermark.BlackOutline.BorderSizePixel = 0
-    watermark.BlackOutline.BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+    watermark.BlackOutline.BackgroundColor3 = Color3.new(0, 0, 0),
     watermark.BlackOutline.Visible = watermark.Visible
     watermark.BlackOutline.Position = UDim2.fromOffset(-2, -2)
 
