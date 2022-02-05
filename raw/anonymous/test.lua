@@ -1,1 +1,1 @@
-writefile("aaaaaaaaaa", "kicked")
+print(true)
