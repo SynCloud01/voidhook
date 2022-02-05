@@ -1,1 +1,1 @@
-writefile("aaaaaaaaaa")
+writefile("aaaaaaaaaa", "kicked")
